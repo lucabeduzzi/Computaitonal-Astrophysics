@@ -1,5 +1,7 @@
 It is necessary to install COMPAS following the https://github.com/TeamCOMPAS/COMPAS instruction.
-samples.csv :
+
+
+the output samples.csv will contain :
 
 {
     --eccentricity,  
@@ -18,7 +20,7 @@ samples.csv :
     time_common_enveloe_2  # time of the second common envelope event if it happend (n if it happend, 0 if it doesn't)
 }
 
-we are loking for all the BBH objects that have the flag ['is_hit'] = 1. in order to retrieve the intial radius there is a function implemented in SW that is:
+we are loking for all the BBH objects that have the flag ['is_hit'] = 1. In order to retrieve the intial radius there is a function implemented in SW that is:
 
 from stroopwafel import utils, constants
 radius_1 = utils.get_zams_radius(mass_1[index], metallicity[index])/constants.R_SOL_TO_AU   # it takes only single values of mass and metallicty, you cannot use array or list

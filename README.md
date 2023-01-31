@@ -1,3 +1,4 @@
+It is necessary to install COMPAS following the https://github.com/TeamCOMPAS/COMPAS instruction.
 samples.csv :
 
 {

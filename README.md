@@ -1,7 +1,7 @@
 It is necessary to install COMPAS following the https://github.com/TeamCOMPAS/COMPAS instruction.
 
 
-the output samples.csv will contain :
+The output file samples.csv will contain :
 
 {
     --eccentricity,  
